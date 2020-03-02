@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "778040823907",
+    "firebase_url": "https://otobox.firebaseio.com",
+    "project_id": "otobox",
+    "storage_bucket": "otobox.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778040823907:android:66ce8b97e88ce37d85e856",
+        "android_client_info": {
+          "package_name": "rw.otobox.otobox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778040823907-meso9538h7qcretp3v2aart1n6263jh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC94n0CO1tC8IoYonuZe-aHHPUtW8YW6uA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778040823907-meso9538h7qcretp3v2aart1n6263jh9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "778040823907-f1656nb2r17peomovg4punub9t2o7kvv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "rw.otobox.otobox"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
