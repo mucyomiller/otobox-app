@@ -2,4 +2,4 @@
 
 Otobox IOS/Android Application.
 
-Developed by [Otobox Ltd](https://mucyofred.com) &copy; 2019
+Developed by [mucyomiller](https://mucyofred.com) &copy; 2020
