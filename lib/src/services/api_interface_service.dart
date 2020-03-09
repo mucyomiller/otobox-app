@@ -1,7 +1,10 @@
+import 'dart:convert';
 import 'dart:io';
 
 import 'package:dio/dio.dart';
+import 'package:http/http.dart' as http;
 import 'package:flutter/foundation.dart';
+import 'package:otobox/src/models/post.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:otobox/src/models/user_model.dart';
 
@@ -63,4 +66,47 @@ Future<String> updateUserProfileField(
 
 Future<bool> updatePassword({String oldsecret, String secret}) async {
   return throw UnimplementedError();
+}
+
+Future<List<Post>> fetchPost() async {
+  List<Post> datas = [
+    Post(
+      brandName: 'BMW',
+      modelName: 'BMW Series 2',
+      year: '2008',
+      type: 'RENT',
+      price: '100,000Rwf/day',
+      asset: 'https://res.cloudinary.com/mucyomiller/image/upload/v1583329134/otobox/cars/BMW2SeriesConvertible_ds7xjj.png',
+      logo: 'https://res.cloudinary.com/mucyomiller/image/upload/v1583329176/otobox/logos/bmw_oq6jak.png',
+    ),
+    Post(
+      brandName: 'TOYOTA',
+      modelName: 'Prado',
+      year: '2009',
+      type: 'SALE',
+      price: '66,500,000Rwf',
+      asset: 'https://res.cloudinary.com/mucyomiller/image/upload/v1583329134/otobox/cars/BMW2SeriesConvertible_ds7xjj.png',
+      logo: 'https://res.cloudinary.com/mucyomiller/image/upload/v1583329176/otobox/logos/toyota_kp7qvu.png',
+    ),
+    Post(
+      brandName: 'LEXUS',
+      modelName: 'Lexus aristo ',
+      year: '2005',
+      type: 'SALE',
+      price: '66,500,000Rwf',
+      asset: 'https://res.cloudinary.com/mucyomiller/image/upload/v1583329134/otobox/cars/BMW2SeriesConvertible_ds7xjj.png',
+      logo: 'https://res.cloudinary.com/mucyomiller/image/upload/v1583329176/otobox/logos/lexus_vwjx6y.png',
+    ),
+    Post(
+      brandName: 'MERCEDES BENZ',
+      modelName: 'Mercedes Benz CLS ',
+      year: '2009',
+      type: 'SALE',
+      price: '5,000,000Rwf',
+      asset: 'https://res.cloudinary.com/mucyomiller/image/upload/v1583329134/otobox/cars/BMW2SeriesConvertible_ds7xjj.png',
+      logo: 'https://res.cloudinary.com/mucyomiller/image/upload/v1583329176/otobox/logos/benz_z6yi0v.png',
+    ),
+  ];
+
+  return datas;
 }

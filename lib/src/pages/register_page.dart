@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:otobox/src/pages/home_page.dart';
+import 'package:otobox/src/pages/main_page.dart';
 import 'package:otobox/src/widgets/custom_input.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:otobox/src/database/db_helper.dart';
@@ -212,7 +212,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 ),
                 onPressed: () => Navigator.of(context).pushReplacement(
                       MaterialPageRoute(
-                        builder: (BuildContext context) => HomePage(),
+                        builder: (BuildContext context) => MainPage(),
                       ),
                     )),
           ),
