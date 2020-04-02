@@ -93,6 +93,8 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (6.3.1):
     - GoogleUtilities/Logger
+  - image_editor (0.0.1):
+    - Flutter
   - image_picker (0.0.1):
     - Flutter
   - nanopb (0.3.901):
@@ -132,6 +134,7 @@ DEPENDENCIES:
   - Flutter (from `Flutter`)
   - flutter_country_picker (from `.symlinks/plugins/flutter_country_picker/ios`)
   - flutter_plugin_android_lifecycle (from `.symlinks/plugins/flutter_plugin_android_lifecycle/ios`)
+  - image_editor (from `.symlinks/plugins/image_editor/ios`)
   - image_picker (from `.symlinks/plugins/image_picker/ios`)
   - path_provider (from `.symlinks/plugins/path_provider/ios`)
   - rounded_letter (from `.symlinks/plugins/rounded_letter/ios`)
@@ -178,6 +181,8 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_country_picker/ios"
   flutter_plugin_android_lifecycle:
     :path: ".symlinks/plugins/flutter_plugin_android_lifecycle/ios"
+  image_editor:
+    :path: ".symlinks/plugins/image_editor/ios"
   image_picker:
     :path: ".symlinks/plugins/image_picker/ios"
   path_provider:
@@ -222,6 +227,7 @@ SPEC CHECKSUMS:
   GoogleDataTransport: 166f9b9f82cbf60a204e8fe2daa9db3e3ec1fb15
   GoogleDataTransportCCTSupport: f6ab1962e9dc05ab1fb938b795e5b310209edeec
   GoogleUtilities: f895fde57977df4e0233edda0dbeac490e3703b6
+  image_editor: d0181032f68c58c9de3c9b8c17291b9a51c9dbb5
   image_picker: e3eacd46b94694dde7cf2705955cece853aa1a8f
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   path_provider: fb74bd0465e96b594bb3b5088ee4a4e7bb1f2a9d

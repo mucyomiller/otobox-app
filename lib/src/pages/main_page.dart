@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:otobox/src/pages/add_car_page.dart';
 import 'package:otobox/src/pages/home_page.dart';
 import 'package:otobox/src/utils/size_config.dart';
 
@@ -19,12 +20,7 @@ class _MainPageState extends State<MainPage> {
         style: optionStyle,
       ),
     ),
-    Center(
-      child: Text(
-        'Add Car Page',
-        style: optionStyle,
-      ),
-    ),
+    AddCarPage(),
     Center(
       child: Text(
         'Rent Page',
