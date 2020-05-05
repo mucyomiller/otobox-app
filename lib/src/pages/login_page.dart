@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:otobox/src/pages/main_page.dart';
 import 'package:otobox/src/widgets/custom_input.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:otobox/src/database/db_helper.dart';
@@ -173,7 +174,11 @@ class _LoginPageState extends State<LoginPage> {
                     fontWeight: FontWeight.bold,
                     color: Colors.white),
               ),
-              onPressed: () => {},
+              onPressed: () => Navigator.of(context).pushReplacement(
+                      MaterialPageRoute(
+                        builder: (BuildContext context) => MainPage(),
+                      ),
+                    ),
             ),
           ),
         ),

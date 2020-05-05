@@ -46,7 +46,7 @@ class NavigatorBloc {
   }
 
   void pop(BuildContext context) {
-    return Navigator.pop(context);
+     Navigator.pop(context);
   }
 
   void resetState() {
